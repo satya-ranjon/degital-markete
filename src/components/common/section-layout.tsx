@@ -9,7 +9,7 @@ const SectionLayout = ({
 }) => {
   return (
     <div
-      className={`py-20 md:py-32 px-6 md:px-0 md:max-w-[700px] lg:max-w-[935px] xl:max-w-[1200px] mx-auto ${className}`}>
+      className={`py-20 md:py-32 px-6 md:px-0 md:max-w-[700px] lg:max-w-[935px] xl:max-w-[1245px] mx-auto ${className}`}>
       {children}
     </div>
   );

@@ -5,7 +5,7 @@ import { SectionTitle } from "./common/section-title";
 
 const MarketerSection = () => {
   return (
-    <SectionLayout className="mr-0 md:max-w-[736px] lg:max-w-[982px] xl:max-w-[1340px]">
+    <SectionLayout className="mr-0 md:max-w-[736px] lg:max-w-[982px] xl:max-w-[1341px]">
       <div className="w-full flex flex-col md:flex-row justify-between gap-16 md:gap-10 xl:gap-36">
         <div className="max-w-[444px]">
           <div className=" space-y-3 md:space-y-2 lg:space-y-3">

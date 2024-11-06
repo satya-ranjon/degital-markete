@@ -1,4 +1,5 @@
 import HeroSection from "../components/hero-section";
+import PortfolioSection from "../components/portfolio-section";
 import MarketerSection from "../components/marketer-section";
 import ServiceSection from "../components/service-section";
 
@@ -9,6 +10,7 @@ const Home = () => {
       <HeroSection />
       <ServiceSection />
       <MarketerSection />
+      <PortfolioSection />
       <div className=" h-screen"></div>
     </div>
   );
