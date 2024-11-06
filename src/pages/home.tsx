@@ -2,6 +2,7 @@ import HeroSection from "../components/hero-section";
 import PortfolioSection from "../components/portfolio-section";
 import MarketerSection from "../components/marketer-section";
 import ServiceSection from "../components/service-section";
+import ClientSection from "../components/client-section";
 
 const Home = () => {
   console.log("Home");
@@ -11,6 +12,7 @@ const Home = () => {
       <ServiceSection />
       <MarketerSection />
       <PortfolioSection />
+      <ClientSection />
       <div className=" h-screen"></div>
     </div>
   );
