@@ -12,6 +12,7 @@ export default {
         dark: "#132743",
         secondary: "#FBB52D",
         "nav-bg": "#eeeeee7c",
+        gray: "#787E88",
       },
     },
   },

@@ -1,3 +1,5 @@
+import { Button } from "./common/button";
+import { SectionTitle } from "./common/section-title";
 import Navbar from "./navbar";
 
 const HeroSection = () => {
@@ -21,20 +23,28 @@ const HeroSection = () => {
             Hello, I am Luis Jocic
           </div>
 
-          <h1 className="text-[48px] md:text-[42px] lg:text-[62px]  xl:text-[72px] font-extrabold leading-[70px] md:leading-[50px] lg:leading-[70px] xl:leading-[100px] mt-[15px] xl:mt-[20px]">
-            Your Digital <br /> Marketer
-          </h1>
+          <SectionTitle
+            size="xl"
+            className="text-white mt-4 xl:mt-5 font-extrabold ">
+            Your Digital
+          </SectionTitle>
+          <SectionTitle
+            size="xl"
+            className="text-white mt-3 lg:mt-4 xl:mt-5 font-extrabold ">
+            Marketer
+          </SectionTitle>
+
           <div className=" max-w-full md:max-w-[301px]  lg:max-w-[401px] xl:max-w-[501px] text-[18px] md:text-[12px] lg:text-[16px] xl:text-[18px] font-semibold  leading-[33px] md:leading-[18px] lg:leading-[25px] xl:leading-[33px] mt-[20px] xl:mt-[30px]">
             Our mission is to responsible for ensuring that the website is
             easily found by the target audience
           </div>
           <div className=" mt-[30px] xl:mt-[50px]">
-            <button className="bg-secondary rounded-[8px] text-[18px] md:text-[12px] lg:text-[16px]  xl:text-[18px] font-semibold leading-normal tracking-[0.5px]  px-[26px] md:px-[30px] lg:px-[40px]  xl:px-[50px] py-[13px] md:py-[8px] lg:py-[14px] xl:py-[18px]">
+            <Button size="lg" variant="secondary">
               Email me
-            </button>
-            <button className=" px-[26px] md:px-[30px] lg:px-[40px]  xl:px-[50px] py-[13px] md:py-[8px] lg:py-[14px] xl:py-[18px] text-[18px] md:text-[12px] lg:text-[16px]  xl:text-[18px] font-bold leading-[120%]">
+            </Button>
+            <Button size="lg" variant="primary">
               Download CV
-            </button>
+            </Button>
           </div>
         </div>
 
