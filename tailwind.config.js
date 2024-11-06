@@ -13,6 +13,7 @@ export default {
         secondary: "#FBB52D",
         "nav-bg": "#eeeeee7c",
         gray: "#787E88",
+        "gray-light": "#F8F8F8",
       },
     },
   },
