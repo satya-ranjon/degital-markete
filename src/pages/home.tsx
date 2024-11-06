@@ -1,6 +1,6 @@
 import HeroSection from "../components/hero-section";
-import MarketerSection from "../components/marketer.section";
-import ServiceSection from "../components/service.section";
+import MarketerSection from "../components/marketer-section";
+import ServiceSection from "../components/service-section";
 
 const Home = () => {
   console.log("Home");
