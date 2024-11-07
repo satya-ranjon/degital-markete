@@ -9,7 +9,6 @@ import PromoSection from "../components/promo-section";
 import Footer from "../components/footer";
 
 const Home = () => {
-  console.log("Home");
   return (
     <div className="font-sans max-w-[1440px] mx-auto">
       <HeroSection />
@@ -21,7 +20,6 @@ const Home = () => {
       <MembersSection />
       <PromoSection />
       <Footer />
-      <div className=" h-screen"></div>
     </div>
   );
 };
