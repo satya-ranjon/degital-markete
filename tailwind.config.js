@@ -14,6 +14,7 @@ export default {
         "nav-bg": "#eeeeee7c",
         gray: "#787E88",
         "gray-light": "#F8F8F8",
+        "footer-bg": "#050E1B",
       },
     },
   },

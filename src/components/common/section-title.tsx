@@ -5,7 +5,7 @@ import { cn } from "../../lib/utils";
 const titleVariants = cva("font-bold text-dark ", {
   variants: {
     size: {
-      sm: "xl:text-[20px] lg:text-4xl md:text-3xl sm:text-2xl text-xl",
+      sm: "xl:text-[20] ",
       md: "xl:text-2xl text-xl",
       lg: "lg:text-5xl md:text-4xl text-5xl",
       xl: "text-5xl lg:text-6xl  xl:text-7xl",

@@ -12,7 +12,7 @@ const MarketerSection = () => {
             <SectionTitle>Best Digital</SectionTitle>
             <SectionTitle>Marketer for you</SectionTitle>
           </div>
-          <Description className=" mt-7 md:mt-2 lg:mt-5">
+          <Description className=" text-lg mt-7 md:mt-2 lg:mt-5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut
           </Description>
@@ -24,13 +24,17 @@ const MarketerSection = () => {
           </Button>
         </div>
         <div className="w-full flex justify-between gap-10 xl:gap-40">
-          <div className=" w-full grid grid-cols-2 gap-10 md:gap-0 xl:gap-20">
+          <div className=" w-full grid grid-cols-2 gap-10 xl:gap-20">
             <div className="w-full flex justify-center items-center">
-              <div className=" text-start">
+              <div className="text-lg md:text-start ">
                 <SectionTitle>145</SectionTitle>
                 <div className="mt-3">
-                  <Description>Awardee </Description>
-                  <Description>champion </Description>
+                  <Description className="  text-lg md:text-sm lg:text-lg ">
+                    Awardee
+                  </Description>
+                  <Description className="  text-lg md:text-sm lg:text-lg ">
+                    champion
+                  </Description>
                 </div>
               </div>
             </div>
@@ -38,8 +42,12 @@ const MarketerSection = () => {
               <div className=" text-start">
                 <SectionTitle>98</SectionTitle>
                 <div className="mt-3">
-                  <Description>Winner</Description>
-                  <Description>Contest </Description>
+                  <Description className="  text-lg md:text-sm lg:text-lg ">
+                    Winner
+                  </Description>
+                  <Description className="  text-lg md:text-sm lg:text-lg ">
+                    Contest{" "}
+                  </Description>
                 </div>
               </div>
             </div>
@@ -47,8 +55,12 @@ const MarketerSection = () => {
               <div className=" text-start">
                 <SectionTitle>7</SectionTitle>
                 <div className="mt-3">
-                  <Description>Years</Description>
-                  <Description>experience </Description>
+                  <Description className="  text-lg md:text-sm lg:text-lg ">
+                    Years
+                  </Description>
+                  <Description className="  text-lg md:text-sm lg:text-lg ">
+                    experience{" "}
+                  </Description>
                 </div>
               </div>
             </div>
@@ -56,8 +68,12 @@ const MarketerSection = () => {
               <div className=" text-start">
                 <SectionTitle>1k+</SectionTitle>
                 <div className="mt-3">
-                  <Description>Client</Description>
-                  <Description>Handled</Description>
+                  <Description className="  text-lg md:text-sm lg:text-lg ">
+                    Client
+                  </Description>
+                  <Description className="  text-lg md:text-sm lg:text-lg ">
+                    Handled
+                  </Description>
                 </div>
               </div>
             </div>

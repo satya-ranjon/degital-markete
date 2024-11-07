@@ -13,7 +13,7 @@ const PortfolioSection = () => {
               <SectionTitle>Landing Page</SectionTitle>
               <SectionTitle>Portofolio</SectionTitle>
             </div>
-            <Description className=" max-w-72 mt-5">
+            <Description className=" text-lg max-w-72 mt-5">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
             </Description>
             <Button

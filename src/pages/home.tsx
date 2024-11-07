@@ -3,6 +3,10 @@ import PortfolioSection from "../components/portfolio-section";
 import MarketerSection from "../components/marketer-section";
 import ServiceSection from "../components/service-section";
 import ClientSection from "../components/client-section";
+import ContactSection from "../components/contact-section";
+import MembersSection from "../components/members.section";
+import PromoSection from "../components/promo-section";
+import Footer from "../components/footer";
 
 const Home = () => {
   console.log("Home");
@@ -13,6 +17,10 @@ const Home = () => {
       <MarketerSection />
       <PortfolioSection />
       <ClientSection />
+      <ContactSection />
+      <MembersSection />
+      <PromoSection />
+      <Footer />
       <div className=" h-screen"></div>
     </div>
   );
